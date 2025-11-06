@@ -1,0 +1,37 @@
+# System and temporary files
+.DS_Store
+.CFUserTextEncoding
+.Trash/
+.cache/
+
+# Sensitive configuration files
+.claude.json
+.claude.json.backup
+.claude
+
+# Shell history
+.zsh_history
+.node_repl_history
+
+# Session and history files
+.zsh_sessions/
+.viminfo
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# IDE cache and workspace files
+.vscode/settings.json.user
+.npm/.npm-anonymous-access
+
+# Local cache and build artifacts
+node_modules/
+*.log
+.git/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+*.bak
