@@ -7,11 +7,12 @@
 # Sensitive configuration files
 .claude.json
 .claude.json.backup
-.claude
+.claude/
 
 # Shell history
 .zsh_history
 .node_repl_history
+.lesshst
 
 # Session and history files
 .zsh_sessions/
@@ -22,9 +23,9 @@
 *.swo
 *~
 
-# IDE cache and workspace files
-.vscode/settings.json.user
-.npm/.npm-anonymous-access
+# IDE and package manager cache
+.vscode/
+.npm/
 
 # Local cache and build artifacts
 node_modules/
